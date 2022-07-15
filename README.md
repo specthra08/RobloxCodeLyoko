@@ -89,7 +89,7 @@ local Frame2 = Instance.new("Frame")
 
 --Properties:
 
-ScreenGui1.Name = "ScreenGui1"
+ScreenGui1.Name = "TPmenu.English"
 ScreenGui1.Parent = game.CoreGui
 
 Frame.Parent = ScreenGui1
