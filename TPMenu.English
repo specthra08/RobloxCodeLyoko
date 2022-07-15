@@ -101,13 +101,13 @@ Frame.Size = UDim2.new(0, 692, 0, 329)
 Frame.Visible = false
 Frame.Active =true
 
-Frame.Visible = true
-CityMenu.Visible = true
-IceSectorMenu.Visible = true
-ForestSectorMenu.Visible = true
-DesertSectorMenu.Visible = true
-MountainSectorMenu.Visible = true
-CarthageSectorMenu.Visible = true
+Frame.Draggable = true
+CityMenu.Draggable = true
+IceSectorMenu.Draggable = true
+ForestSectorMenu.Draggable = true
+DesertSectorMenu.Draggable = true
+MountainSectorMenu.Draggable = true
+CarthageSectorMenu.Draggable = true
 
 CarthageSectorMenu.Name = "CarthageSectorMenu"
 CarthageSectorMenu.Parent = Frame
