@@ -92,7 +92,7 @@ local Frame2 = Instance.new("Frame")
 --Properties:
 
 TPMenuFranais.Name = "TPMenu.Français"
-TPMenuFranais.Parent = game.Workspace
+TPMenuFranais.Parent = game.CoreGui
 
 Frame.Parent = TPMenuFranais
 Frame.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
