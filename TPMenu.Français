@@ -1,6 +1,7 @@
 --créé par draxnalee#3854
 -- appuis sur ctrl de droite pour ouvrir/fermer le menu
 
+
 local TPMenuFranais = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local CarthageSectorMenu = Instance.new("Frame")
@@ -73,7 +74,7 @@ local Icesector = Instance.new("TextButton")
 local Mountainsector = Instance.new("TextButton")
 local cityButton = Instance.new("TextButton")
 local NameTextLabel = Instance.new("TextLabel")
-local byspecthraTextLabel = Instance.new("TextLabel")
+local bydraxnaleeTextLabel = Instance.new("TextLabel")
 local Frame1 = Instance.new("Frame")
 local Frame2 = Instance.new("Frame")
 local MountainSectorMenu = Instance.new("Frame")
@@ -815,16 +816,16 @@ NameTextLabel.Text = "Menu de teleportation"
 NameTextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 NameTextLabel.TextSize = 20.000
 
-byspecthraTextLabel.Name = "byspecthraTextLabel"
-byspecthraTextLabel.Parent = Frame
-byspecthraTextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-byspecthraTextLabel.Position = UDim2.new(-0.00295909122, 0, 0.899834394, 0)
-byspecthraTextLabel.Size = UDim2.new(0, 153, 0, 32)
-byspecthraTextLabel.ZIndex = 2
-byspecthraTextLabel.Font = Enum.Font.SourceSans
-byspecthraTextLabel.Text = "fais par specthra"
-byspecthraTextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-byspecthraTextLabel.TextSize = 20.000
+bydraxnaleeTextLabel.Name = "bydraxnaleeTextLabel"
+bydraxnaleeTextLabel.Parent = Frame
+bydraxnaleeTextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bydraxnaleeTextLabel.Position = UDim2.new(-0.00295909122, 0, 0.899834394, 0)
+bydraxnaleeTextLabel.Size = UDim2.new(0, 153, 0, 32)
+bydraxnaleeTextLabel.ZIndex = 2
+bydraxnaleeTextLabel.Font = Enum.Font.SourceSans
+bydraxnaleeTextLabel.Text = "fais par draxnalee"
+bydraxnaleeTextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+bydraxnaleeTextLabel.TextSize = 20.000
 
 Frame1.Name = "Frame1"
 Frame1.Parent = Frame
@@ -958,431 +959,431 @@ TPMountainTower10Button.TextSize = 20.000
 
 -- Scripts:
 
-local function KCYVRE_fake_script() -- TPCarthageTower1Button.Script 
+local function SBKARWL_fake_script() -- TPCarthageTower1Button.Script 
 	local script = Instance.new('Script', TPCarthageTower1Button)
 
 	TPCarthageTower1Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(16.7065, 11009.6, 342.497)
 	end)
 end
-coroutine.wrap(KCYVRE_fake_script)()
-local function JHES_fake_script() -- TPCarthageSkidButton.Script 
+coroutine.wrap(SBKARWL_fake_script)()
+local function HKBLPV_fake_script() -- TPCarthageSkidButton.Script 
 	local script = Instance.new('Script', TPCarthageSkidButton)
 
 	TPCarthageSkidButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(30.8609, 11623.7, 68.17)
 	end)
 end
-coroutine.wrap(JHES_fake_script)()
-local function FBPBRM_fake_script() -- TPCarthageHeartButton.Script 
+coroutine.wrap(HKBLPV_fake_script)()
+local function UOLNAV_fake_script() -- TPCarthageHeartButton.Script 
 	local script = Instance.new('Script', TPCarthageHeartButton)
 
 	TPCarthageHeartButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25.637, 10561.6, 155.296)
 	end)
 end
-coroutine.wrap(FBPBRM_fake_script)()
-local function NRRKYT_fake_script() -- TPCarthageMemoryButton.Script 
+coroutine.wrap(UOLNAV_fake_script)()
+local function JPMXZJH_fake_script() -- TPCarthageMemoryButton.Script 
 	local script = Instance.new('Script', TPCarthageMemoryButton)
 
 	TPCarthageMemoryButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-22.8922, 10900.4, 237.599)
 	end)
 end
-coroutine.wrap(NRRKYT_fake_script)()
-local function OISTUQ_fake_script() -- TPCarthageArenaButton.Script 
+coroutine.wrap(JPMXZJH_fake_script)()
+local function KXVYQFK_fake_script() -- TPCarthageArenaButton.Script 
 	local script = Instance.new('Script', TPCarthageArenaButton)
 
 	TPCarthageArenaButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(29.8861, 11015, 16.4096)
 	end)
 end
-coroutine.wrap(OISTUQ_fake_script)()
-local function VRAVFC_fake_script() -- TPCarthageInterfaceButton.Script 
+coroutine.wrap(KXVYQFK_fake_script)()
+local function UVYFKRI_fake_script() -- TPCarthageInterfaceButton.Script 
 	local script = Instance.new('Script', TPCarthageInterfaceButton)
 
 	TPCarthageInterfaceButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(23.5575, 11014.8, -862.401)
 	end)
 end
-coroutine.wrap(VRAVFC_fake_script)()
-local function FYPQ_fake_script() -- TPlaboButton.Script 
+coroutine.wrap(UVYFKRI_fake_script)()
+local function ZHLYVL_fake_script() -- TPlaboButton.Script 
 	local script = Instance.new('Script', TPlaboButton)
 
 	TPlaboButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-927.318, -178.858, 1340.43)
 	end)
 end
-coroutine.wrap(FYPQ_fake_script)()
-local function JWTYZ_fake_script() -- TPscannerButton.Script 
+coroutine.wrap(ZHLYVL_fake_script)()
+local function BFGH_fake_script() -- TPscannerButton.Script 
 	local script = Instance.new('Script', TPscannerButton)
 
 	TPscannerButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-962.077, -289.897, 1352.83)
 	end)
 end
-coroutine.wrap(JWTYZ_fake_script)()
-local function XJPFWYI_fake_script() -- TPsupercomputerButton.Script 
+coroutine.wrap(BFGH_fake_script)()
+local function SMJCA_fake_script() -- TPsupercomputerButton.Script 
 	local script = Instance.new('Script', TPsupercomputerButton)
 
 	TPsupercomputerButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-949.773, -405.458, 1334.34)
 	end)
 end
-coroutine.wrap(XJPFWYI_fake_script)()
-local function YZZYHK_fake_script() -- TPCanteenButton.Script 
+coroutine.wrap(SMJCA_fake_script)()
+local function DUZNM_fake_script() -- TPCanteenButton.Script 
 	local script = Instance.new('Script', TPCanteenButton)
 
 	TPCanteenButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-84.5979, 35.1351, -207.855)
 	end) 
 end
-coroutine.wrap(YZZYHK_fake_script)()
-local function TXXUHIC_fake_script() -- TPyumihouseButton.Script 
+coroutine.wrap(DUZNM_fake_script)()
+local function RNYHPVM_fake_script() -- TPyumihouseButton.Script 
 	local script = Instance.new('Script', TPyumihouseButton)
 
 	TPyumihouseButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(305.536, 38.7759, -1351.93)
 	end)
 end
-coroutine.wrap(TXXUHIC_fake_script)()
-local function UWIT_fake_script() -- TPHistoryclassButton.Script 
+coroutine.wrap(RNYHPVM_fake_script)()
+local function VRDYN_fake_script() -- TPHistoryclassButton.Script 
 	local script = Instance.new('Script', TPHistoryclassButton)
 
 	TPHistoryclassButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.345, 33.5051, -66.6376)
 	end)
 end
-coroutine.wrap(UWIT_fake_script)()
-local function ZVWLBR_fake_script() -- TPmathclassButton.Script 
+coroutine.wrap(VRDYN_fake_script)()
+local function TCKSV_fake_script() -- TPmathclassButton.Script 
 	local script = Instance.new('Script', TPmathclassButton)
 
 	TPmathclassButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-135.576, 33.5051, -125.55)
 	end)
 end
-coroutine.wrap(ZVWLBR_fake_script)()
-local function YTOYG_fake_script() -- TPreadingclassButton.Script 
+coroutine.wrap(TCKSV_fake_script)()
+local function YPHDVPH_fake_script() -- TPreadingclassButton.Script 
 	local script = Instance.new('Script', TPreadingclassButton)
 
 	TPreadingclassButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-159.446, 33.5051, -182.625)
 	end)
 end
-coroutine.wrap(YTOYG_fake_script)()
-local function EBAVIGS_fake_script() -- TPscienceclassButton.Script 
+coroutine.wrap(YPHDVPH_fake_script)()
+local function RGHMTQ_fake_script() -- TPscienceclassButton.Script 
 	local script = Instance.new('Script', TPscienceclassButton)
 
 	TPscienceclassButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.907, 52.6109, -159.727)
 	end)
 end
-coroutine.wrap(EBAVIGS_fake_script)()
-local function VLJGYIU_fake_script() -- TPJeremyroomButton.Script 
+coroutine.wrap(RGHMTQ_fake_script)()
+local function XUGK_fake_script() -- TPJeremyroomButton.Script 
 	local script = Instance.new('Script', TPJeremyroomButton)
 
 	TPJeremyroomButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-66.9497, 50.3451, -301.601)
 	end)
 end
-coroutine.wrap(VLJGYIU_fake_script)()
-local function FDYYBD_fake_script() -- TPUlrichOddroomButton.Script 
+coroutine.wrap(XUGK_fake_script)()
+local function UIEIN_fake_script() -- TPUlrichOddroomButton.Script 
 	local script = Instance.new('Script', TPUlrichOddroomButton)
 
 	TPUlrichOddroomButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-105.467, 50.2861, -328.007)
 	end)
 end
-coroutine.wrap(FDYYBD_fake_script)()
-local function SSQDCWS_fake_script() -- TPwilliamroomButton.Script 
+coroutine.wrap(UIEIN_fake_script)()
+local function NETDQAZ_fake_script() -- TPwilliamroomButton.Script 
 	local script = Instance.new('Script', TPwilliamroomButton)
 
 	TPwilliamroomButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-74.5165, 50.2566, -90.6776)
 	end)
 end
-coroutine.wrap(SSQDCWS_fake_script)()
-local function OCCYE_fake_script() -- TPAelitaroomButton.Script 
+coroutine.wrap(NETDQAZ_fake_script)()
+local function SRNKOW_fake_script() -- TPAelitaroomButton.Script 
 	local script = Instance.new('Script', TPAelitaroomButton)
 
 	TPAelitaroomButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-149.629, 67.0851, -167.899)
 	end)
 end
-coroutine.wrap(OCCYE_fake_script)()
-local function KJRGIXG_fake_script() -- TPElizabethroomButton.Script 
+coroutine.wrap(SRNKOW_fake_script)()
+local function HKLQEAJ_fake_script() -- TPElizabethroomButton.Script 
 	local script = Instance.new('Script', TPElizabethroomButton)
 
 	TPElizabethroomButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-134.245, 67.0164, -134.003)
 	end)
 end
-coroutine.wrap(KJRGIXG_fake_script)()
-local function UGWF_fake_script() -- TPMillyTamiaroomButton.Script 
+coroutine.wrap(HKLQEAJ_fake_script)()
+local function RJHLS_fake_script() -- TPMillyTamiaroomButton.Script 
 	local script = Instance.new('Script', TPMillyTamiaroomButton)
 
 	TPMillyTamiaroomButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9.72453, 67.1618, -83.7629)
 	end)
 end
-coroutine.wrap(UGWF_fake_script)()
-local function DZUK_fake_script() -- TPJimroomButton.Script 
+coroutine.wrap(RJHLS_fake_script)()
+local function XTDZRC_fake_script() -- TPJimroomButton.Script 
 	local script = Instance.new('Script', TPJimroomButton)
 
 	TPJimroomButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-157.557, 50.2203, -273.338)
 	end)
 end
-coroutine.wrap(DZUK_fake_script)()
-local function HKVKNMW_fake_script() -- TPinfirmerieButton.Script 
+coroutine.wrap(XTDZRC_fake_script)()
+local function DPVK_fake_script() -- TPinfirmerieButton.Script 
 	local script = Instance.new('Script', TPinfirmerieButton)
 
 	TPinfirmerieButton.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(162.758, 35.0053, -552)
 	end)
 end
-coroutine.wrap(HKVKNMW_fake_script)()
-local function PYWMG_fake_script() -- TPDesertTower2Button.Script 
+coroutine.wrap(DPVK_fake_script)()
+local function EXIWGGA_fake_script() -- TPDesertTower2Button.Script 
 	local script = Instance.new('Script', TPDesertTower2Button)
 
 	TPDesertTower2Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3809.25, 10662.4, -3483.43)
 	end)
 end
-coroutine.wrap(PYWMG_fake_script)()
-local function HSMAS_fake_script() -- TPDesertTower3Button.Script 
+coroutine.wrap(EXIWGGA_fake_script)()
+local function AQECFOB_fake_script() -- TPDesertTower3Button.Script 
 	local script = Instance.new('Script', TPDesertTower3Button)
 
 	TPDesertTower3Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3203.06, 10666.2, -5705.44)
 	end)
 end
-coroutine.wrap(HSMAS_fake_script)()
-local function ASLVC_fake_script() -- TPDesertTower4Button.Script 
+coroutine.wrap(AQECFOB_fake_script)()
+local function HYMT_fake_script() -- TPDesertTower4Button.Script 
 	local script = Instance.new('Script', TPDesertTower4Button)
 
 	TPDesertTower4Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5932.33, 10537.2, -2621.19)
 	end)
 end
-coroutine.wrap(ASLVC_fake_script)()
-local function PWPY_fake_script() -- TPDesertTower5Button.Script 
+coroutine.wrap(HYMT_fake_script)()
+local function REHKB_fake_script() -- TPDesertTower5Button.Script 
 	local script = Instance.new('Script', TPDesertTower5Button)
 
 	TPDesertTower5Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5903.74, 10646.8, -4357.42)
 	end)
 end
-coroutine.wrap(PWPY_fake_script)()
-local function KGIULRP_fake_script() -- TPDesertTower6Button.Script 
+coroutine.wrap(REHKB_fake_script)()
+local function GRQTB_fake_script() -- TPDesertTower6Button.Script 
 	local script = Instance.new('Script', TPDesertTower6Button)
 
 	TPDesertTower6Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4323.6, 10661.7, -6877.87)
 	end)
 end
-coroutine.wrap(KGIULRP_fake_script)()
-local function MBVCCXF_fake_script() -- TPDesertTower7Button.Script 
+coroutine.wrap(GRQTB_fake_script)()
+local function RGIIPD_fake_script() -- TPDesertTower7Button.Script 
 	local script = Instance.new('Script', TPDesertTower7Button)
 
 	TPDesertTower7Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8271.82, 10643, -3561.59)
 	end)
 end
-coroutine.wrap(MBVCCXF_fake_script)()
-local function THLXDZM_fake_script() -- TPDesertTower8Button.Script 
+coroutine.wrap(RGIIPD_fake_script)()
+local function JRNVR_fake_script() -- TPDesertTower8Button.Script 
 	local script = Instance.new('Script', TPDesertTower8Button)
 
 	TPDesertTower8Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8552.32, 10645.1, -6645.08)
 	end)
 end
-coroutine.wrap(THLXDZM_fake_script)()
-local function QAOUZRC_fake_script() -- TPDesertTower9Button.Script 
+coroutine.wrap(JRNVR_fake_script)()
+local function DYUNJ_fake_script() -- TPDesertTower9Button.Script 
 	local script = Instance.new('Script', TPDesertTower9Button)
 
 	TPDesertTower9Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6157.33, 10517.2, -8623.81)
 	end)
 end
-coroutine.wrap(QAOUZRC_fake_script)()
-local function MXSJPW_fake_script() -- TPDesertTower10Button.Script 
+coroutine.wrap(DYUNJ_fake_script)()
+local function HUJL_fake_script() -- TPDesertTower10Button.Script 
 	local script = Instance.new('Script', TPDesertTower10Button)
 
 	TPDesertTower10Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8121.34, 10642, -8042.99)
 	end)
 end
-coroutine.wrap(MXSJPW_fake_script)()
-local function NHZQVI_fake_script() -- TPDesertTower1Button.Script 
+coroutine.wrap(HUJL_fake_script)()
+local function OBPCRF_fake_script() -- TPDesertTower1Button.Script 
 	local script = Instance.new('Script', TPDesertTower1Button)
 
 	TPDesertTower1Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6737, 10661.5, -6146.28)
 	end)
 end
-coroutine.wrap(NHZQVI_fake_script)()
-local function FMRZF_fake_script() -- TPForestTower1Button.Script 
+coroutine.wrap(OBPCRF_fake_script)()
+local function OSDV_fake_script() -- TPForestTower1Button.Script 
 	local script = Instance.new('Script', TPForestTower1Button)
 
 	TPForestTower1Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5657.17, 10670.3, 4682.75)
 	end)
 end
-coroutine.wrap(FMRZF_fake_script)()
-local function ZQHVK_fake_script() -- TPForestTower2Button.Script 
+coroutine.wrap(OSDV_fake_script)()
+local function HEJZW_fake_script() -- TPForestTower2Button.Script 
 	local script = Instance.new('Script', TPForestTower2Button)
 
 	TPForestTower2Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4675.48, 10682.1, 2116.84)
 	end)
 end
-coroutine.wrap(ZQHVK_fake_script)()
-local function FCGAS_fake_script() -- TPForestTower3Button.Script 
+coroutine.wrap(HEJZW_fake_script)()
+local function YGLAW_fake_script() -- TPForestTower3Button.Script 
 	local script = Instance.new('Script', TPForestTower3Button)
 
 	TPForestTower3Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2394.19, 10722.4, 4384.63)
 	end)
 end
-coroutine.wrap(FCGAS_fake_script)()
-local function LBNO_fake_script() -- TPForestTower4Button.Script 
+coroutine.wrap(YGLAW_fake_script)()
+local function EYTDW_fake_script() -- TPForestTower4Button.Script 
 	local script = Instance.new('Script', TPForestTower4Button)
 
 	TPForestTower4Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4311.6, 10670.3, 4132.43)
 	end)
 end
-coroutine.wrap(LBNO_fake_script)()
-local function UESROM_fake_script() -- TPForestTower5Button.Script 
+coroutine.wrap(EYTDW_fake_script)()
+local function YWWGR_fake_script() -- TPForestTower5Button.Script 
 	local script = Instance.new('Script', TPForestTower5Button)
 
 	TPForestTower5Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6160.07, 10670.3, 3483.59)
 	end)
 end
-coroutine.wrap(UESROM_fake_script)()
-local function EWTYG_fake_script() -- TPForestTower6Button.Script 
+coroutine.wrap(YWWGR_fake_script)()
+local function HADIKTW_fake_script() -- TPForestTower6Button.Script 
 	local script = Instance.new('Script', TPForestTower6Button)
 
 	TPForestTower6Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3480.25, 10672.7, 5736.71)
 	end)
 end
-coroutine.wrap(EWTYG_fake_script)()
-local function ECJDK_fake_script() -- TPForestTower7Button.Script 
+coroutine.wrap(HADIKTW_fake_script)()
+local function SGDLS_fake_script() -- TPForestTower7Button.Script 
 	local script = Instance.new('Script', TPForestTower7Button)
 
 	TPForestTower7Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5028.37, 10669.6, 5239.32)
 	end)
 end
-coroutine.wrap(ECJDK_fake_script)()
-local function OOYE_fake_script() -- TPForestTower8Button.Script 
+coroutine.wrap(SGDLS_fake_script)()
+local function CANGG_fake_script() -- TPForestTower8Button.Script 
 	local script = Instance.new('Script', TPForestTower8Button)
 
 	TPForestTower8Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7374.69, 10685.1, 5436.44)
 	end)
 end
-coroutine.wrap(OOYE_fake_script)()
-local function JUGDYM_fake_script() -- TPForestTower9Button.Script 
+coroutine.wrap(CANGG_fake_script)()
+local function JJAJLDI_fake_script() -- TPForestTower9Button.Script 
 	local script = Instance.new('Script', TPForestTower9Button)
 
 	TPForestTower9Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5769.57, 10695.2, 6507.06)
 	end)
 end
-coroutine.wrap(JUGDYM_fake_script)()
-local function DKFPSB_fake_script() -- TPForestTower10Button.Script 
+coroutine.wrap(JJAJLDI_fake_script)()
+local function JYKE_fake_script() -- TPForestTower10Button.Script 
 	local script = Instance.new('Script', TPForestTower10Button)
 
 	TPForestTower10Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6758.03, 10693.4, 7310.46)
 	end)
 end
-coroutine.wrap(DKFPSB_fake_script)()
-local function OXQHA_fake_script() -- TPIceTower1Button.Script 
+coroutine.wrap(JYKE_fake_script)()
+local function ZMLULO_fake_script() -- TPIceTower1Button.Script 
 	local script = Instance.new('Script', TPIceTower1Button)
 
 	TPIceTower1Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5794.13, 10493, -6083.61)
 	end)
 end
-coroutine.wrap(OXQHA_fake_script)()
-local function EYYR_fake_script() -- TPIceTower2Button.Script 
+coroutine.wrap(ZMLULO_fake_script)()
+local function YGDFL_fake_script() -- TPIceTower2Button.Script 
 	local script = Instance.new('Script', TPIceTower2Button)
 
 	TPIceTower2Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2316.91, 10528.1, -4805.98)
 	end)
 end
-coroutine.wrap(EYYR_fake_script)()
-local function OMLK_fake_script() -- TPIceTower3Button.Script 
+coroutine.wrap(YGDFL_fake_script)()
+local function IVHY_fake_script() -- TPIceTower3Button.Script 
 	local script = Instance.new('Script', TPIceTower3Button)
 
 	TPIceTower3Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2781.41, 10515.3, -6118.96)
 	end)
 end
-coroutine.wrap(OMLK_fake_script)()
-local function IXDKWH_fake_script() -- TPIceTower4Button.Script 
+coroutine.wrap(IVHY_fake_script)()
+local function YDHKO_fake_script() -- TPIceTower4Button.Script 
 	local script = Instance.new('Script', TPIceTower4Button)
 
 	TPIceTower4Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4604.56, 10507.4, -3498.57)
 	end)
 end
-coroutine.wrap(IXDKWH_fake_script)()
-local function KQQB_fake_script() -- TPIceTower5Button.Script 
+coroutine.wrap(YDHKO_fake_script)()
+local function EYCMS_fake_script() -- TPIceTower5Button.Script 
 	local script = Instance.new('Script', TPIceTower5Button)
 
 	TPIceTower5Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5761.87, 10518.8, -2380.26)
 	end)
 end
-coroutine.wrap(KQQB_fake_script)()
-local function ZEYKJC_fake_script() -- TPIceTower6Button.Script 
+coroutine.wrap(EYCMS_fake_script)()
+local function WNYMIS_fake_script() -- TPIceTower6Button.Script 
 	local script = Instance.new('Script', TPIceTower6Button)
 
 	TPIceTower6Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6622.91, 10512, -3566.51)
 	end)
 end
-coroutine.wrap(ZEYKJC_fake_script)()
-local function FRKN_fake_script() -- TPIceTower7Button.Script 
+coroutine.wrap(WNYMIS_fake_script)()
+local function AVOLVDN_fake_script() -- TPIceTower7Button.Script 
 	local script = Instance.new('Script', TPIceTower7Button)
 
 	TPIceTower7Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5579.4, 10522.9, -5189.92)
 	end)
 end
-coroutine.wrap(FRKN_fake_script)()
-local function LFPUGKP_fake_script() -- TPIceTower8Button.Script 
+coroutine.wrap(AVOLVDN_fake_script)()
+local function ZRZG_fake_script() -- TPIceTower8Button.Script 
 	local script = Instance.new('Script', TPIceTower8Button)
 
 	TPIceTower8Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4510.06, 10482.7, -6791.05)
 	end)
 end
-coroutine.wrap(LFPUGKP_fake_script)()
-local function AZSPCEP_fake_script() -- TPIceTower9Button.Script 
+coroutine.wrap(ZRZG_fake_script)()
+local function WQGTQOX_fake_script() -- TPIceTower9Button.Script 
 	local script = Instance.new('Script', TPIceTower9Button)
 
 	TPIceTower9Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8385.81, 10523.5, -6036.5)
 	end)
 end
-coroutine.wrap(AZSPCEP_fake_script)()
-local function BFAGV_fake_script() -- TPIceTower10Button.Script 
+coroutine.wrap(WQGTQOX_fake_script)()
+local function UMHHOV_fake_script() -- TPIceTower10Button.Script 
 	local script = Instance.new('Script', TPIceTower10Button)
 
 	TPIceTower10Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7686.17, 10479.4, -7468.36)
 	end)
 end
-coroutine.wrap(BFAGV_fake_script)()
-local function IFPQQ_fake_script() -- Carthagesector.Script 
+coroutine.wrap(UMHHOV_fake_script)()
+local function HSXJFP_fake_script() -- Carthagesector.Script 
 	local script = Instance.new('Script', Carthagesector)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1395,8 +1396,8 @@ local function IFPQQ_fake_script() -- Carthagesector.Script
 	end)
 	
 end
-coroutine.wrap(IFPQQ_fake_script)()
-local function ZTVN_fake_script() -- Desertsector.Script 
+coroutine.wrap(HSXJFP_fake_script)()
+local function GYLCD_fake_script() -- Desertsector.Script 
 	local script = Instance.new('Script', Desertsector)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1409,8 +1410,8 @@ local function ZTVN_fake_script() -- Desertsector.Script
 	end)
 	
 end
-coroutine.wrap(ZTVN_fake_script)()
-local function SHSDS_fake_script() -- Forestsector.Script 
+coroutine.wrap(GYLCD_fake_script)()
+local function QQOMYZ_fake_script() -- Forestsector.Script 
 	local script = Instance.new('Script', Forestsector)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1423,8 +1424,8 @@ local function SHSDS_fake_script() -- Forestsector.Script
 	end)
 	
 end
-coroutine.wrap(SHSDS_fake_script)()
-local function TDQYBT_fake_script() -- Icesector.Script 
+coroutine.wrap(QQOMYZ_fake_script)()
+local function YQHDD_fake_script() -- Icesector.Script 
 	local script = Instance.new('Script', Icesector)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1437,8 +1438,8 @@ local function TDQYBT_fake_script() -- Icesector.Script
 	end)
 	
 end
-coroutine.wrap(TDQYBT_fake_script)()
-local function RMONESR_fake_script() -- Mountainsector.Script 
+coroutine.wrap(YQHDD_fake_script)()
+local function MPWTA_fake_script() -- Mountainsector.Script 
 	local script = Instance.new('Script', Mountainsector)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1451,8 +1452,8 @@ local function RMONESR_fake_script() -- Mountainsector.Script
 	end)
 	
 end
-coroutine.wrap(RMONESR_fake_script)()
-local function ACNGCQF_fake_script() -- cityButton.Script 
+coroutine.wrap(MPWTA_fake_script)()
+local function MCJEY_fake_script() -- cityButton.Script 
 	local script = Instance.new('Script', cityButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1465,88 +1466,88 @@ local function ACNGCQF_fake_script() -- cityButton.Script
 	end)
 	
 end
-coroutine.wrap(ACNGCQF_fake_script)()
-local function ZSCX_fake_script() -- TPMountainTower1Button.Script 
+coroutine.wrap(MCJEY_fake_script)()
+local function LZKQSWD_fake_script() -- TPMountainTower1Button.Script 
 	local script = Instance.new('Script', TPMountainTower1Button)
 
 	TPMountainTower1Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4858.05, 10289.1, 5432.04)
 	end)
 end
-coroutine.wrap(ZSCX_fake_script)()
-local function SZMRSE_fake_script() -- TPMountainTower2Button.Script 
+coroutine.wrap(LZKQSWD_fake_script)()
+local function NTKY_fake_script() -- TPMountainTower2Button.Script 
 	local script = Instance.new('Script', TPMountainTower2Button)
 
 	TPMountainTower2Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5839.6, 10644.3, 2774.17)
 	end)
 end
-coroutine.wrap(SZMRSE_fake_script)()
-local function PSIVH_fake_script() -- TPMountainTower3Button.Script 
+coroutine.wrap(NTKY_fake_script)()
+local function SXOKNX_fake_script() -- TPMountainTower3Button.Script 
 	local script = Instance.new('Script', TPMountainTower3Button)
 
 	TPMountainTower3Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2574.06, 10296.8, 4768.57)
 	end)
 end
-coroutine.wrap(PSIVH_fake_script)()
-local function NZKB_fake_script() -- TPMountainTower4Button.Script 
+coroutine.wrap(SXOKNX_fake_script)()
+local function RNXUS_fake_script() -- TPMountainTower4Button.Script 
 	local script = Instance.new('Script', TPMountainTower4Button)
 
 	TPMountainTower4Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6233.47, 10305.4, 4960.89)
 	end)
 end
-coroutine.wrap(NZKB_fake_script)()
-local function LZLOMH_fake_script() -- TPMountainTower5Button.Script 
+coroutine.wrap(RNXUS_fake_script)()
+local function NTZDK_fake_script() -- TPMountainTower5Button.Script 
 	local script = Instance.new('Script', TPMountainTower5Button)
 
 	TPMountainTower5Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4210.39, 10638.2, 5970.01)
 	end)
 end
-coroutine.wrap(LZLOMH_fake_script)()
-local function OUVGN_fake_script() -- TPMountainTower6Button.Script 
+coroutine.wrap(NTZDK_fake_script)()
+local function TWTONZL_fake_script() -- TPMountainTower6Button.Script 
 	local script = Instance.new('Script', TPMountainTower6Button)
 
 	TPMountainTower6Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5046.08, 10285.1, 7355.53)
 	end)
 end
-coroutine.wrap(OUVGN_fake_script)()
-local function FDJUYQ_fake_script() -- TPMountainTower7Button.Script 
+coroutine.wrap(TWTONZL_fake_script)()
+local function HLQJSJR_fake_script() -- TPMountainTower7Button.Script 
 	local script = Instance.new('Script', TPMountainTower7Button)
 
 	TPMountainTower7Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6831.23, 10660.2, 6564.93)
 	end)
 end
-coroutine.wrap(FDJUYQ_fake_script)()
-local function KUDYFB_fake_script() -- TPMountainTower8Button.Script 
+coroutine.wrap(HLQJSJR_fake_script)()
+local function BGVUJE_fake_script() -- TPMountainTower8Button.Script 
 	local script = Instance.new('Script', TPMountainTower8Button)
 
 	TPMountainTower8Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7905.15, 10305.4, 6523.76)
 	end)
 end
-coroutine.wrap(KUDYFB_fake_script)()
-local function YKAUPX_fake_script() -- TPMountainTower9Button.Script 
+coroutine.wrap(BGVUJE_fake_script)()
+local function VEBFLBI_fake_script() -- TPMountainTower9Button.Script 
 	local script = Instance.new('Script', TPMountainTower9Button)
 
 	TPMountainTower9Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6269.04, 10653.4, 8540.51)
 	end)
 end
-coroutine.wrap(YKAUPX_fake_script)()
-local function NEUMI_fake_script() -- TPMountainTower10Button.Script 
+coroutine.wrap(VEBFLBI_fake_script)()
+local function XZPZZO_fake_script() -- TPMountainTower10Button.Script 
 	local script = Instance.new('Script', TPMountainTower10Button)
 
 	TPMountainTower10Button.MouseButton1Down : Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7162.2, 10292.9, 7768.93)
 	end)
 end
-coroutine.wrap(NEUMI_fake_script)()
-local function JGGTN_fake_script() -- TPMenuFranais.LocalScript 
+coroutine.wrap(XZPZZO_fake_script)()
+local function WYWO_fake_script() -- TPMenuFranais.LocalScript 
 	local script = Instance.new('LocalScript', TPMenuFranais)
 
 	local menu =game:GetService("UserInputService")
@@ -1563,4 +1564,4 @@ local function JGGTN_fake_script() -- TPMenuFranais.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JGGTN_fake_script)()
+coroutine.wrap(WYWO_fake_script)()
